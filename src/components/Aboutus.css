@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", sans-serif;
+}
+.about-section {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(57, 57, 139), rgb(0, 0, 0));
+  padding: 40px 0;
+}
+.inner-width {
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: auto;
+}
+.inner-width h1{
+  font-size: 50px;
+  
+}
+.about-section h1 {
+  text-align: center;
+}
+.border {
+  width: 200px;
+  height: 3px;
+  background: white;
+  margin: 30px auto;
+
+}
+.btn-abt a{
+  padding: 10px 30px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.btn-abt {
+  padding: 10px;
+  text-align: center;
+ 
+}
+.about-section-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-section-col {
+  /* flex: 50%; */
+ height: 450px;
+  padding: 20px;
+  width: 50%;
+}
+.about {
+  /* padding-right: 30px; */
+  color: whitesmoke;
+  padding: 20px;
+  width: 50%;
+}
+.about p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.about a {
+  display: inline-block;
+  color: whitesmoke;
+  text-decoration: none;
+  border: 2px solid whitesmoke;
+  border-radius: 24px;
+  padding: 8px 40px;
+  transition: 0.4s linear;
+  
+}
+.about a:hover {
+  color: brown;
+  background: #fff;
+}
+.skills {
+  padding-left: 30px;
+}
+.skill {
+  margin-bottom: 10px;
+}
+.progress {
+  width: 100%;
+  height: 12px;
+  background: #ddd;
+  border-radius: 12px;
+}
+.progress-bar {
+  height: 12px;
+  background: #e74c3c;
+  border-radius: 12px;
+}
+.p1 {
+  width: 90%;
+}
+.p2 {
+  width: 70%;
+}
+.p3 {
+  width: 50%;
+}
+.progress-bar span {
+  float: right;
+  margin-right: 6px;
+  line-height: 13px;
+  color: #fff;
+  font-size: 12px;
+}
+@media screen and (max-width: 700px) {
+  .about-section-col {
+    flex: 100%;
+    margin: 10px 0;
+  }
+  .about,
+  .skills {
+    padding: 0;
+  }
+  .about {
+    text-align: center;
+  }
+}
+@media(max-width:576px){
+  .about{
+    margin-left: 80px;
+    
+  }
+  .about p{
+    text-align: inherit;
+  }
+}

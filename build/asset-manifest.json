@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0fffe848.chunk.css",
+    "main.js": "/static/js/main.9ce26a80.chunk.js",
+    "main.js.map": "/static/js/main.9ce26a80.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4ba1596e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4ba1596e.js.map",
+    "static/js/2.539de34c.chunk.js": "/static/js/2.539de34c.chunk.js",
+    "static/js/2.539de34c.chunk.js.map": "/static/js/2.539de34c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.76f0e482eff2d04f32a9bd87e5396b9d.js": "/precache-manifest.76f0e482eff2d04f32a9bd87e5396b9d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0fffe848.chunk.css.map": "/static/css/main.0fffe848.chunk.css.map",
+    "static/js/2.539de34c.chunk.js.LICENSE.txt": "/static/js/2.539de34c.chunk.js.LICENSE.txt",
+    "static/media/Delta_coin_logo_nobg.png": "/static/media/Delta_coin_logo_nobg.f7ca0f9d.png",
+    "static/media/Delta_img_home_bg.jpeg": "/static/media/Delta_img_home_bg.1cdfb65c.jpeg",
+    "static/media/ledgo-removebg-preview.png": "/static/media/ledgo-removebg-preview.805b4b7c.png",
+    "static/media/pablo.jpeg": "/static/media/pablo.2d350ea9.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ba1596e.js",
+    "static/js/2.539de34c.chunk.js",
+    "static/css/main.0fffe848.chunk.css",
+    "static/js/main.9ce26a80.chunk.js"
+  ]
+}
