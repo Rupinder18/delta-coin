@@ -1,0 +1,118 @@
+.staking-main-div{
+background-color: black;
+}
+.staking-container{
+    width: 30%;
+    margin: auto;
+   
+    text-align: center;
+    padding-top: 50px;
+}
+.staking-container img{
+    width: 350px;
+}
+.fafaicons a{
+    text-decoration: none;
+    color:#ffff ;
+    font-size: 25px;
+    margin:  15px;
+}
+.fafaicons{
+    margin: 30px 0px;
+}
+#s-link{
+    color: #E0A52E;
+    font-size: 13px;
+   
+
+}
+.ss-link{
+    margin: 20px;
+}
+.join{
+    color: white;
+    text-align: center;
+}
+.join h1{
+    font-size: 40px;
+    margin: 10px;
+}
+.join input{
+    background: black;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    font-size: 30px;
+    text-align: right;
+    margin: 20px 0px;
+}
+::placeholder{
+    background: transparent;
+    color: #ffff;  
+}
+.staking-btn button{
+padding: 10px 40px;
+color: white;
+background:#E0A52E ;
+font-size: 20px;
+border-radius: 20px;
+border: none;
+outline: none;
+}
+.staking-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.stat{
+    color: white;
+}
+.stat p{
+    text-align: left;
+    font-size: 27px;
+    color:#E0A52E ;
+    font-weight: bold;
+}
+.stat h1{
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.stat-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+#stat-one{
+    text-align: left;
+}
+#stat-two{
+    text-align: right;
+}
+.btn-with{
+    text-align: right;
+}
+.btn-with button{
+    padding: 10px;
+    background: black;
+    color: white;
+   
+}
+#view{
+    margin: 30px 0px;
+}
+#label-btn{
+    padding: 10px;
+    background: black;
+    color: white;
+}
+#last-div{
+    font-size: 20px;
+    color:#E0A52E ;
+}
+#view-two{
+    margin-left: 40px;
+}
+#view-three{
+    margin-left: -40px;
+    font-size: 15px;
+}

@@ -18,8 +18,7 @@ function HeroSection() {
         <Button
           className="btns"
           buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
+          buttonSize="btn--large">
           GET STARTED
         </Button>
       </div>

@@ -20,6 +20,7 @@
   /* max-width: 1500px; */
   width: 95%;
  margin: auto;
+ 
 }
 
 .navbar-logo {
@@ -54,9 +55,12 @@
 }
 
 .nav-item {
-  height: 80px;
+  /* height: 80px; */
+  
 }
-
+#nav-con{
+  display: flex;
+}
 .nav-links {
   color: #fff;
   display: flex;

@@ -2,7 +2,7 @@ import React from "react";
 import "./Cards.css";
 import { useState } from "react";
 import { Button } from "./Button";
-import qrImg from "../assets/qr-link.png";
+import qrImg from "../assets/qr-link.svg";
 
 import "./HeroSection.css";
 import "./Aboutus.css";
