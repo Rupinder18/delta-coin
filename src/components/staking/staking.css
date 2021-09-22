@@ -51,6 +51,7 @@ background-attachment: fixed;
     font-size: 30px;
     text-align: right;
     margin: 20px 0px;
+    color: #ffff;
 }
 ::placeholder{
     background: transparent;
