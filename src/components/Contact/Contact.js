@@ -4,6 +4,19 @@ import Logo from "../../assets/Delta_coin_logo_nobg.png";
 const Contact = () => {
     return (
         <div className="contact-main-div">
+             <div class="bubbles">
+      <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+  </div>
           <div className="main-container">
           <label id='contact-hddr'>Contact</label>
           <h2>Get In Touch</h2>
