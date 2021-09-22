@@ -8,6 +8,7 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import Aboutus from './components/pages/Aboutus';
 import Staking from './components/staking/Staking';
+import Contact from './components/Contact/Contact';
 function App() {
   return (
     <>
@@ -18,7 +19,7 @@ function App() {
           <Route path='/aboutus' component={Aboutus}/>
           <Route path='/services' component={Services} />
           <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/contact' component={Contact} />
           <Route path='/staking' component={Staking} />
 
         </Switch>

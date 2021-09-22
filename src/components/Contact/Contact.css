@@ -1,0 +1,143 @@
+.contact-main-div{
+    background-image: url(../../assets/bg-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    opacity: 0.9;
+}
+.main-container{
+    opacity: 1;
+}
+#contact-hddr{
+    text-transform: uppercase;
+    color: #F3B433;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.main-container h2{
+    color: white;
+   font-size: 60px;
+   font-family: 'Comfortaa', cursive;
+   font-weight: lighter !important;
+   
+}
+#reach{
+    color: #c3c9d4;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#form-one input{
+    /* background: transparent; */
+    background: #202228;
+    border: 2px solid #333744;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #9099A9;
+    
+}
+#form-one , #form-two{
+    width: 40%;
+}
+
+#form-two textarea{
+    background: #202228;
+    border: 2px solid #333744;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+   
+}
+::placeholder{
+    color: #9099A9;
+}
+.form-btn{
+    border: 3px solid #FFBC33;
+    color: #FFBC33;
+    padding: 15px 30px;
+    background: transparent;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;   
+}
+.form-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+#form-two button{
+    margin-top: 40px;
+    float: left;
+}
+.contact-footer{
+    width: 30%;
+    margin: auto;
+}
+.contact-footer p{
+    color: #c3c9d4;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.fafaicons a{
+    font-size: 30px;
+    
+}
+@media (max-width:576px){
+    .form-div{
+        flex-direction: column;
+    }
+    #form-one,#form-two{
+        width: 95%;
+    }
+    #form-two button{
+        float: none;
+    }
+    .contact-footer{
+        width: 95%;
+    }
+    .main-container h2{
+        font-size: 45px;
+    }
+}
+@media (max-width:768px){
+    .form-div{
+        flex-direction: column;
+    }
+    #form-one,#form-two{
+        width: 95%;
+    }
+    #form-two button{
+        float: none;
+    }
+    .contact-footer{
+        width: 95%;
+    }
+    .main-container h2{
+        font-size: 45px;
+    }
+}
+@media (max-width:1306px){
+    .contact-footer{
+        width: 95%;
+    }
+}
