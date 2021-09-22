@@ -54,9 +54,7 @@ html {
     background-color: #232323;
     
   }
-  #ultility{
-    height: 570px;
-  }
+  
   
   
   
@@ -68,7 +66,8 @@ html {
   .pricing-plan {
     background-color: black;
     margin: 10px;
-    
+    height: 600px;  
+  
 
   }
   
@@ -123,7 +122,7 @@ html {
     line-height: 1.5;
     padding: 15px 0;
     list-style-type: none;
-    color: ;
+    color: wheat ;
   }
   
   .pricing-features-item:last-child {
@@ -131,7 +130,7 @@ html {
   }
   
   .pricing-price {
-    color: #016FF9;
+    color: wheat;
     display: block;
     font-size: 32px;
     font-weight: 700;
@@ -140,7 +139,7 @@ html {
   .pricing-button {
     border: 1px solid #9dd1ff;
     border-radius: 10px;
-    color: #348EFE;
+    color: wheat;
     display: inline-block;
     margin: 25px 0;
     padding: 15px 35px;
@@ -163,3 +162,4 @@ html {
   .pricing-button.is-featured:active {
     background-color: #269aff;
   }
+ 

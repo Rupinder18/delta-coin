@@ -1,5 +1,8 @@
 .staking-main-div{
 background-color: black;
+background-image: url(../../assets/bg-2.png);
+background-attachment: fixed;
+ 
 }
 .staking-container{
     width: 30%;
@@ -9,7 +12,7 @@ background-color: black;
     padding-top: 50px;
 }
 .staking-container img{
-    width: 350px;
+    
 }
 .fafaicons a{
     text-decoration: none;
@@ -19,13 +22,15 @@ background-color: black;
 }
 .fafaicons{
     margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #s-link{
     color: #E0A52E;
     font-size: 13px;
-   
-
 }
+
 .ss-link{
     margin: 20px;
 }
@@ -35,7 +40,8 @@ background-color: black;
 }
 .join h1{
     font-size: 40px;
-    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 .join input{
     background: black;
@@ -55,9 +61,21 @@ padding: 10px 40px;
 color: white;
 background:#E0A52E ;
 font-size: 20px;
-border-radius: 20px;
+/* border-radius: 20px; */
 border: none;
 outline: none;
+}
+.staking-btn #btn-1{
+    background-color: transparent;
+    
+
+}
+.staking-btn #btn-1 label{
+    padding-top: -80px;
+}
+.staking-btn #btn-1 img{
+    width: 146px;
+    height: 44px;
 }
 .staking-btn{
     display: flex;
@@ -86,7 +104,7 @@ outline: none;
     text-align: left;
 }
 #stat-two{
-    text-align: right;
+    text-align: left;
 }
 .btn-with{
     text-align: right;
@@ -98,7 +116,7 @@ outline: none;
    
 }
 #view{
-    margin: 30px 0px;
+    margin: 80px 0px;
 }
 #label-btn{
     padding: 10px;
@@ -109,10 +127,52 @@ outline: none;
     font-size: 20px;
     color:#E0A52E ;
 }
-#view-two{
+/* #view-two{
     margin-left: 40px;
 }
 #view-three{
     margin-left: -40px;
     font-size: 15px;
+} */
+#img-cls{
+    width: 83px;
+    height: 83px;
+}
+.last-link{
+
+    display: flex;
+    justify-content: center;
+
+}
+#img-cls1{
+    font-size: 11px;
+    margin: 20px;
+    
+}
+#link-one{
+    color: white;
+}
+@media (max-width:576px){
+    .staking-container{
+        width: 85%;   
+    }
+    .last-link{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:768px){
+    .staking-container{
+        width: 85%;   
+    }
+    .last-link{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1024px){
+    .staking-container{
+        width: 85%;   
+    }
+    .last-link{
+        flex-wrap: wrap;
+    }
 }

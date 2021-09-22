@@ -51,6 +51,7 @@
   width: 50%;
   padding: 10px;
  margin-bottom: 20px;
+ text-align: center;
   
 }
 
@@ -62,6 +63,7 @@
  outline: none;
  box-shadow: 1px 1px 5px wheat;
  font-weight: bolder;
+ margin: auto;
 }
 
 .fa-play-circle {
@@ -125,6 +127,15 @@
 }
 @media(max-width:1024px){
   .hero-btns .btn{
-    margin-left: 0px;
+    margin: auto;
   }
+}
+@media(max-width:2976px){
+  .hero-btns {
+    text-align: center;
+  
+      }
+      .hero-btns .btn{
+        margin: auto;
+      }
 }

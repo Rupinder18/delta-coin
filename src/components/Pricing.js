@@ -22,7 +22,7 @@ function Pricing() {
         <a href="#/" class="pricing-button">Get now</a>
       </div>
       
-      <div id='ultility' class="pricing-plan">
+      <div  class="pricing-plan">
         <img src="https://i.postimg.cc/0ypzGCr8/1ut.png" alt="" class="pricing-img"/>
         <h2 class="pricing-header">Utility</h2>
         <ul class="pricing-features">
@@ -33,7 +33,7 @@ function Pricing() {
         <a href="#/" class="pricing-button">Get now</a>
       </div>
       
-      <div class="pricing-plan">
+      <div id='p-plan' class="pricing-plan">
         <img src="https://i.postimg.cc/5NrTNvV1/lock.png" alt="" class="pricing-img"/>
         <h2 class="pricing-header">Security</h2>
         <ul class="pricing-features">
