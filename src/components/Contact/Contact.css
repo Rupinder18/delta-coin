@@ -106,7 +106,7 @@
 .bubbles{
     position:absolute;
     width:100%;
-    height: 60%;
+    height: 70% !important;
     z-index:0;
     overflow:hidden;
     top:0;
@@ -208,9 +208,9 @@
     .form-div{
         flex-direction: column;
     }
-    /* .bubbles{
-        height: 75% ;
-    } */
+    .bubbles{
+        height: 75% !important ;
+    }
     #form-one,#form-two{
         width: 95%;
     }
@@ -229,9 +229,9 @@
     .form-div{
         flex-direction: column;
     }
-    /* .bubbles{
-        height: 66%;
-    } */
+    .bubbles{
+        height: 66% !important;
+    }
     #form-one,#form-two{
         width: 95%;
     }
@@ -249,8 +249,13 @@
     .contact-footer{
         width: 95%;
     }
+    .bubbles{
+        height: 67% !important ;
+    }
+}
+@media (max-width:2946px){
     /* .bubbles{
-        height: 67% ;
+        height: 68% !important ;
     } */
 }
 /* //// */
