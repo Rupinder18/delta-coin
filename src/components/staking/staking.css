@@ -2,12 +2,12 @@
 background-color: black;
 background-image: url(../../assets/bg-2.png);
 background-attachment: fixed;
- 
+ opacity: 0.9;
 }
 .staking-container{
     width: 30%;
     margin: auto;
-   
+   opacity: 1;
     text-align: center;
     padding-top: 50px;
 }

@@ -53,15 +53,7 @@ function Ice() {
       </div>
      
     </div> */}
-      <div className="lead-mid-content">
-        <div className="text-content">
-          <h1 className="first-text">1 USDT Equals</h1>
-          <h1 className="second-text">73.5 DELTA-COIN</h1>
-        </div>
-        <div className="qr-code">
-          <img className="qr-img" src={qrImg} alt="qr-link" />
-        </div>
-      </div>
+    
       {/* <div class="col-75">
       
       <div class="col-25">

@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lead-testimonial-cont {
+  width: 100%;
+  /* max-width: 1170px;
+  min-width: 1170px; */
+  height: 40vh;
+  margin: 0 auto;
+  background-color: white;
+  /* background-image: url(https://i.postimg.cc/wTQS73H3/golgo.jpg); */
+  /* padding: 30px; */
+  background-size: cover;
+  position: relative;
+  margin: 20px 0px;
+}
+
+.lead-mid-content {
+  display: flex;
+ 
+  background-image: linear-gradient(
+70deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
+  align-items: center;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  padding: 50px 0px;
+  
+}
+
+.text-content {
+  display: flex;
+  justify-content: center;
+  padding-left: 4rem;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 50%;
+  /* box-shadow: 5px 3px 10px lightgray; */
+  
+  
+}
+
+.first-text {
+  font-size: 4rem;
+  color: wheat;
+  /* letter-spacing: 0px; */
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-left: -70px;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'Ubuntu';
+}
+
+.second-text {
+  /* color: rgb(59, 59, 255); */
+  color: wheat;
+  font-size: 3rem;
+  margin-left: -70px;
+  font-family: 'Ubuntu';
+}
+
+.qr-code {
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.qr-img {
+  height: 13rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 960px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .lead-mid-content {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+  }
+
+  .text-content {
+    display: flex;
+    justify-content: center;
+    padding-left: 0rem;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 3px 10px lightgray;
+  }
+
+  .first-text {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .second-text {
+    font-size: 1.5rem;
+  }
+
+  .qr-code {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .qr-img {
+    height: 7rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .first-text {
+    font-size: 1.5rem;
+  }
+
+  .second-text {
+    font-size: 1rem;
+  }
+}
+@media(max-width:576px){
+  .lead-mid-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-content{
+    margin: 0px;
+    padding: 0px;
+  }
+  .qr-code{
+    margin: 0px;
+    padding: 0px;
+  }
+}

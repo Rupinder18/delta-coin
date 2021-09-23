@@ -5,8 +5,12 @@ import "./HeroSection.css";
 import img from "../assets/Delta_img_home_bg.jpeg";
 
 function HeroSection() {
+
+
+  
   return (
     <div className="hero-container">
+      
       {/* <img src={img} alt="delta-coin" className="delta-img-bg" /> */}
       {/* <video src="/videos/ledger1.mp4" autoPlay loop muted /> */}
       {/* <h1 style={{ fontFamily: "serif" }}> DELTA Coin</h1> */}

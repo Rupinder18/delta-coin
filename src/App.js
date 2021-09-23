@@ -9,6 +9,8 @@ import SignUp from './components/pages/SignUp';
 import Aboutus from './components/pages/Aboutus';
 import Staking from './components/staking/Staking';
 import Contact from './components/Contact/Contact';
+import Price from './components/price/Price';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -18,11 +20,12 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/aboutus' component={Aboutus}/>
           <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
+          <Route path='/price' component={Price} />
           <Route path='/contact' component={Contact} />
           <Route path='/staking' component={Staking} />
 
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
