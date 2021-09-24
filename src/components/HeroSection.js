@@ -2,14 +2,15 @@ import React from "react";
 import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
-import img from "../assets/Delta_img_home_bg.jpeg";
+
 
 function HeroSection() {
 
 
   
   return (
-    <div className="hero-container">
+    <div  id="particle-canvas" className="hero-container">
+      <h5>kjdkjhjfhdjshfkdskh</h5>
       
       {/* <img src={img} alt="delta-coin" className="delta-img-bg" /> */}
       {/* <video src="/videos/ledger1.mp4" autoPlay loop muted /> */}
