@@ -18,6 +18,7 @@ html,body {
   position: relative;
   height: auto;
   padding: 40px 0px;
+  font-family: 'Ubuntu';
   background-image: linear-gradient(
     70deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
 }
@@ -28,7 +29,8 @@ html,body {
 }
 #footer-a{
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: white;
   margin: 10px 20px;
 }
 #footer-logo{
@@ -49,13 +51,15 @@ html,body {
   margin: 0;
   padding: 0;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 17px;
-  padding: 20px 0px 5px 0px;
-  color: rgba(255,255,255,0.2);
+  padding: 20px 0px 20px 0px;
+  /* color: rgba(255,255,255,0.2); */
+  color: wheat;
+  font-weight: bold !important;
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 0.250em;
+  /* letter-spacing: 0.250em; */
 }
 .footer .col ul {
   list-style-type: none;
@@ -63,7 +67,8 @@ html,body {
   padding: 0;
 }
 .footer .col ul li {
-  color: #999999;
+  /* color: #999999; */
+  color: white;
   font-size: 14px;
   font-family: inherit;
   font-weight: bold;
@@ -76,7 +81,7 @@ html,body {
 .footer-p{
   text-align: center;
   padding: 20px;
-  color: grey;
+  color: white;
   font-weight: 700 !important;
 }
 .social ul li {
