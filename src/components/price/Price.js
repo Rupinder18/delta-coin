@@ -1,6 +1,6 @@
 import React from 'react'
 import '../price/price.css';
-import qrImg from "../../assets/qr-link.svg";
+import qrImg from "../../assets/qrfinal.svg";
 const Price = () => {
     return (
         <div>
