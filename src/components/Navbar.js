@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import sym from "../ledgo-removebg-preview.png";
 import logo from "../assets/Delta_coin_logo_nobg.png";
+import PdfFile from '../document.pdf';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -43,13 +44,17 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
+              {/* <Link
                 to="/services"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Whitepaper
-              </Link>
+              </Link> */}
+               
+              <a className="nav-links" href={PdfFile} target="_blank">
+                Whitepaper
+              </a>
             </li>
            
             <li className="nav-item">

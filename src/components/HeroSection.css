@@ -3,19 +3,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  background-position:bottom;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
    margin-bottom: 20px;
+  
 }
 #particle-canvas{
-  z-index: 0;
+  
   height: 600px;
+  width: 100%;
+  
  
 }
 
-.hero-container > h1 {
+/* .hero-container > h1 {
   background-color: #0b1826;
   background-image: linear-gradient(
     to right,
@@ -30,7 +33,7 @@
 
   font-size: 100px;
   margin-top: -100px;
-}
+} */
 
 .hero-container > p {
   color: white;
@@ -113,6 +116,7 @@
 
   .btn {
     width: 100%;
+    
   }
 }
 @media (max-width:576px){
@@ -142,4 +146,11 @@
       .hero-btns .btn{
         margin: auto;
       }
+}
+#delta-img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 3;
+  margin-top: -150px;
 }

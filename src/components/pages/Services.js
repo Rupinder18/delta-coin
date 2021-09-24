@@ -1,6 +1,12 @@
-import React from 'react';
-import '../../App.css';
+import React from 'react'
+import MyPdf from '../../Pdf'
 
-export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+const Services = () => {
+  return (
+    <div>
+      <MyPdf />
+    </div>
+  )
 }
+
+export default Services
