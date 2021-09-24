@@ -10,6 +10,7 @@ function Footer() {
 <div class="footer">
   <div class="contain">
   <div class="col">
+    
     <h1>Company</h1>
     <ul>
       <li>About</li>
